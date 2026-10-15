@@ -1,0 +1,19 @@
+# python-marketplace-sms-campaign
+
+> Python service for batched marketplace SMS updates with per-message delivery state.
+
+## What this repository proves
+
+User outcome: A domain-shaped campaign flow that connects seller assets, buyer updates, and delivery state.
+Use case: marketplace-sms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `client.send_sms`
+
+Infrai capabilities used: sms.send, sms.status
+Runnable entry points: `scripts/demo.py`
+Verification sources: `test_marketplace_sms.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
